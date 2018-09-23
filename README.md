@@ -39,6 +39,7 @@ Will include description, repo link and demo link for each project
 
 ## Education
 BA Biomedical Sciences (Cells and Systems Biology), University of Oxford. Graduated 2015.
+
 A/AS-Levels: Maths, Biology, Spanish, Economics.
 
 ## Other Links / Contact
