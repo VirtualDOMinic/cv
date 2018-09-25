@@ -10,8 +10,7 @@ I am a full-stack (JS/ES6, HTML/CSS/SASS, Node, PostgreSQL) JavaScript developer
 | Javascript  | Node.js          | Jest                  | Git              | 
 | SQL/Postgres| Express          | Tape                  | Heroku           |
 | HTML        | Handlebars       | Travis CI             |                  |
-| CSS         | Sass             | Tape                  |                  |
-|             |                  | Heroku                |                  | 
+| CSS         | Sass             |                       |                  |
 
 Soon to join the above table: React, Redux, Webpack, Babel, MongoDB...
 
@@ -38,7 +37,7 @@ Will include description, repo link and demo link for each project
 * I'll add more detail soon :)
 
 ## Education
-### BA Biomedical Sciences (Cells and Systems Biology), University of Oxford. Graduated 2015.
+### BA (Hons) Biomedical Sciences (Cells and Systems Biology), University of Oxford. Graduated 2015.
 * For my final lab project (dissertation), I produced several hundred (immuno)fluorescence microscopy images which required individual analysis by hand. As the task essentially involved looking at the ratio of green to blue in images, I created a relatively rudimentary Python script to do this for me by looping through the pixels of each image, summing up the total green value and total blue value of all the pixels that met certain criteria, and produced a ratio for each image. This allowed for repeated calibration, quick (re)measurements and a much more quantitative, unbiased reading.
   * [Generic examples of fluorescence microscopy images](https://www.microscopyu.com/galleries/fluorescence/cells)
   * [Description of immunofluorescence](https://en.wikipedia.org/wiki/Immunofluorescence)
