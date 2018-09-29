@@ -5,14 +5,16 @@ This CV readme is far from complete, and subject to change significantly until l
 I am a full-stack (JS/ES6, HTML/CSS/SASS, Node, PostgreSQL) JavaScript developer and soon-to-be graduate of [Founders & Coders](https://foundersandcoders.com/). I am keen to learn a lot more, with a focus on creating, and contributing to, efficient, secure, maintainable and scalable applications.
 
 ## Current Skills
-| Languages   | Frameworks       | Testing/Deployment    | Tools            | 
-| --------    | --------         | --------              | -------------    | 
-| Javascript  | Node.js          | Jest                  | Git              | 
-| SQL/Postgres| Express          | Tape                  | Heroku           |
-| HTML        | Handlebars       | Travis CI             |                  |
-| CSS         | Sass             |                       |                  |
+| Languages   | Frameworks       | Tools/Testing/Deployment    |
+| --------    | --------         | --------                    |
+| Javascript  | Node.js          | Git                         |
+| SQL/Postgres| Express          | Jest                        |
+| HTML        | React            | Travis CI                   |
+| CSS         | Sass             | Tape                        |
+|             | Handlebars       | Heroku                      |
 
-Soon to join the above table: React, Redux, Webpack, Babel, MongoDB...
+
+Soon to join the above table: Redux, Webpack, Babel, MongoDB...
 
 ## What I'd Love To Learn
 I am looking to improve my ability as a developer, and to build upon the skills I already have (JS, React, Git, SQL, testing...), but - beyond this - I am especially interested in getting significant experience with one or more of the following in the coming years:
