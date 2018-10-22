@@ -2,7 +2,7 @@
 This CV readme is far from complete, and subject to change significantly until late October 2018.
 
 # Dominic Coelho | GitHub CV
-I am a full-stack (JS/ES6, HTML/CSS/SASS, Node, PostgreSQL) JavaScript developer and soon-to-be graduate of [Founders & Coders](https://foundersandcoders.com/). I am keen to learn a lot more, with a focus on creating, and contributing to, efficient, secure, maintainable and scalable applications.
+I am a full-stack (JS/ES6, HTML/CSS/SASS, Node, PostgreSQL) JavaScript developer and recent (October 2018) graduate of [Founders & Coders](https://foundersandcoders.com/). I am keen to learn a lot more, with a focus on creating, and contributing to, efficient, secure, maintainable and scalable applications.
 
 ## Current Skills
 | Languages   | Frameworks       | Tools/Testing/Deployment    |
@@ -14,7 +14,7 @@ I am a full-stack (JS/ES6, HTML/CSS/SASS, Node, PostgreSQL) JavaScript developer
 |             | Handlebars       | Heroku                      |
 
 
-Soon to join the above table: Redux, Webpack, Babel, MongoDB...
+Soon to join the above table: Redux, GraphQL, Webpack, Babel, MongoDB...
 
 ## What I'd Love To Learn
 I am looking to improve my ability as a developer, and to build upon the skills I already have (JS, React, Git, SQL, testing...), but - beyond this - I am especially interested in getting significant experience with one or more of the following in the coming years:
@@ -32,7 +32,7 @@ Will include description, repo link and demo link for each project
 * "Coding for Everyone" meetup at Founders & Coders
 * "Coding for Women" meetup at Founders & Coders
 * ["Get into tech: North Kensington"](https://thekandcfoundation.com/latest/get-into-tech-north-kensington-free-course/)
-* Soon-to-be mentor at [Codebar](https://codebar.io/)
+* [Codebar](https://codebar.io/)
 
 ## Work
 ### Account Director / Senior Account Manager, [Brainlabs Digital](https://www.brainlabsdigital.com/)
