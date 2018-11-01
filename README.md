@@ -43,7 +43,7 @@ I am looking to improve my ability as a developer, and to build upon the skills 
 * Four month paid internship: taking place from late November 2018 - March/April 2019
 * Will update this section with more detail as the internship progresses
 
-### Account Director / Senior Account Manager, [Brainlabs Digital](https://www.brainlabsdigital.com/)
+### Account Director / Senior Account Manager (Digital Marketing), [Brainlabs Digital](https://www.brainlabsdigital.com/)
 * AD for Which? Mortgages and Eastpak
 * Significantly improved account performance through work informed by research, A/B testing, data analysis and competitor research
 * Created interactive, responsive landing page prototypes in order to demonstrate ways to improve clients' UX (UI and loading speed)
