@@ -10,7 +10,7 @@ Projects listed in reverse chronological order (most recent -> oldest).
 ### Chrome extension: relative URL creator (solo project)
 At Ticketmaster, one of the large internal projects for the front-end team is populated by an API that provides absolute URL paths, not relative. This means that - when running the project locally - navigation is very hard, as clicking on internal links takes you to the live site instead of the local page that you are likely working on.
 I created a Chrome extension to efficiently and reliably change these links to be relative in the local environment, so that I - and other members of my team - could quickly/naturally browse our local versions of the site.
-Proud of:
+* Proud of:
    * Managing to quickly identify the problem, design the extension and create a working prototype in my second week at the company, with no prior experience of building Chrome extensions
    * Creating a basic settings page for my extension to ensure it was easy to add in to my teammate's workflows
    * The fact that it works as intended, and I have managed to save both myself and colleagues time and frustration!
