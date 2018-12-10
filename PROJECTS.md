@@ -11,11 +11,11 @@ Projects listed in reverse chronological order (most recent -> oldest).
 At Ticketmaster, one of the large internal projects for the front-end team is populated by an API that provides absolute URL paths, not relative. This means that - when running the project locally - navigation is very hard, as clicking on internal links takes you to the live site instead of the local page that you are likely working on.
 I created a Chrome extension to efficiently and reliably change these links to be relative in the local environment, so that I - and other members of my team - could quickly/naturally browse our local versions of the site.
 Proud of:
-* Managing to quickly identify the problem, design the extension and create a working prototype in my second week at the company, with no prior experience of building Chrome extensions
-* Creating a basic settings page for my extension to ensure it was easy to add in to my teammate's workflows
-* The fact that it works as intended, and I have managed to save both myself and colleagues time and frustration!
-What could be improved:
-* Nothing major, although there are several code design improvements that I have planned/have already implemented.
+   * Managing to quickly identify the problem, design the extension and create a working prototype in my second week at the company, with no prior experience of building Chrome extensions
+   * Creating a basic settings page for my extension to ensure it was easy to add in to my teammate's workflows
+   * The fact that it works as intended, and I have managed to save both myself and colleagues time and frustration!
+* What could be improved:
+   * Nothing major, although there are several code design improvements that I have planned/have already implemented.
 
 ### "This Works" (group project)
 A way to connect SMEs with local governments. The site allows SMEs to set up and edit profile pages (involving user registration, file upload, video embedding and more). Future goals are to make this easily searchable for local governments to find the SMEs that can solve/have already solved problems that they want to tackle.
@@ -41,6 +41,6 @@ A way to easily time how long each person in a group talks for during a presenta
     * The UX/how intuitive the app is to a new user
     * The CSS 
     * Add tests
-    * [See project readme and issues]
+    * See project readme and issues for more detail
 
 
