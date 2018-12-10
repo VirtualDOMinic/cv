@@ -41,6 +41,7 @@ I am looking to improve my ability as a developer, and to build upon the skills 
 ## Work
 ### Front-end engineer, [Ticketmaster](https://www.ticketmaster.co.uk/)
 * Four month paid internship: taking place from late November 2018 - March/April 2019
+* Identified a pain point/productivity hit for several team members and created a Chrome extension to solve the issue ([see "Chrome extension: relative URL creator" in projects readme](https://github.com/VirtualDOMinic/cv/blob/master/PROJECTS.md))
 * Will update this section with more detail as the internship progresses
 
 ### Account Director / Senior Account Manager (Digital Marketing), [Brainlabs Digital](https://www.brainlabsdigital.com/)
