@@ -4,8 +4,8 @@ font-family: 'Inconsolata', monospace; */
 
 :root {
   --main-bg-color: #fffefe;
+  --soft-highlight-color: rgba(207, 145, 207, 0.2);
   font-size: 15px;
-
   }
 
 * {
@@ -16,7 +16,7 @@ font-family: 'Inconsolata', monospace; */
 
 b, strong {
     font-weight: bold;
-    color: #F45454;
+    background-color: var(--soft-highlight-color)
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 .page {
   width: 210mm;
   height: 297mm;
-  padding: 0.5cm;
+  padding: 0.7cm;
   margin: 0 auto;
   border: 1px solid rgb(31, 28, 34);
 }
@@ -68,15 +68,12 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3.8rem;
-    /* font-weight: bold; */
 }
 
 h2 {
     font-size: 1.8rem;
     margin-top: calc((0.2cm + 1rem) * -1);
-    /* margin-left: 3px; */
     background: var(--main-bg-color);
-    /* white-space: nowrap; */
     position: absolute;
     display: inline-block;
     padding: 0 3px;
@@ -123,30 +120,32 @@ h2 + * {
 
 #main-title {
     grid-area: a;
-    background-color: rgba(207, 145, 207, 0.2);
+    background-color: var(--soft-highlight-color);
     /* align-items: center; */
     justify-content: center;
-    border: none;
-    margin-bottom: 0;
 }
 
 #contact {
-    border: none;
     grid-area: b;
     background-color: white;
+}
+
+#main-title, #contact {
+    border: none;
     margin-bottom: 0;
+    padding: 0;
 }
 
 .detail-pair {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;    
+    justify-content: space-between;
+    padding-right: 0.25cm;
 }
 
 #skills {
     grid-area: d;
-    /* background-color: goldenrod; */
 }
 
 #personal-summary {
