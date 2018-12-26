@@ -4,19 +4,19 @@ font-family: 'Inconsolata', monospace; */
 
 :root {
   --main-bg-color: #fffefe;
-  --soft-highlight-color: rgba(207, 145, 207, 0.2);
+  --soft-highlight-color: rgba(207, 145, 207, 0.1);
+  --title-color: rgb(50, 90, 200);
   font-size: 15px;
   }
 
 * {
   box-sizing: border-box;
-  /* font-size: 14px; */
   overflow-wrap: break-word;
 }
 
 b, strong {
     font-weight: bold;
-    background-color: var(--soft-highlight-color)
+    /* background-color: var(--soft-highlight-color) */
 }
 
 body {
@@ -43,11 +43,11 @@ body {
     "e e e e e d d" 
     "e e e e e d d" 
     "e e e e e d d" 
-    "f f f f f g g" 
-    "f f f f f g g" 
     "h h h h h g g" 
-    "h h h h h i i" 
-    "h h h h h i i" 
+    "h h h h h g g" 
+    "h h h h h g g" 
+    "f f f f f i i" 
+    "f f f f f i i" 
     "j j j j j j j";
   }
   
@@ -71,12 +71,13 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-top: calc((0.2cm + 1rem) * -1);
+    font-size: 1.7rem;
+    margin-top: calc((0.16cm + 1rem) * -1);
+    padding: 0 3px;
+    color: var(--title-color);
     background: var(--main-bg-color);
     position: absolute;
     display: inline-block;
-    padding: 0 3px;
 }
 
 h3 {
@@ -103,13 +104,14 @@ p:not(:last-child), a:not(:last-child) {
 }
 
 a, a:visited {
-    color: rgb(95, 75, 215);
+    color: var(--title-color);
+    margin-left: 0px;
 }
 
 .block {
     margin: 0.25cm;
     padding: 0.125cm;
-    border: 2px solid rgb(164, 185, 241);
+    border: 2px solid var(--title-color);
     display: flex;
     flex-direction: column;
 }
@@ -120,14 +122,14 @@ h2 + * {
 
 #main-title {
     grid-area: a;
-    background-color: var(--soft-highlight-color);
+    /* background-color: var(--soft-highlight-color); */
     /* align-items: center; */
     justify-content: center;
+    color: var(--title-color)
 }
 
 #contact {
     grid-area: b;
-    background-color: white;
 }
 
 #main-title, #contact {
