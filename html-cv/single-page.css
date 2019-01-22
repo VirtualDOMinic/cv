@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Inconsolata', monospace; */
+
+:root {
+  --main-bg-color: #fffefe;
+  --soft-highlight-color: rgba(207, 145, 207, 0.1);
+  --title-color: rgb(50, 90, 200);
+  font-size: 15px;
+  }
+
+* {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+b, strong {
+    font-weight: bold;
+    /* background-color: var(--soft-highlight-color) */
+}
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  padding: 0.7cm;
+  margin: 0 auto;
+  border: 1px solid rgb(31, 28, 34);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a a a a b b b" 
+    "c c c c c c c" 
+    "e e e e e d d" 
+    "e e e e e d d" 
+    "e e e e e d d" 
+    "h h h h h g g" 
+    "h h h h h g g" 
+    "h h h h h g g" 
+    "f f f f f i i" 
+    "f f f f f i i" 
+    "j j j j j j j";
+  }
+  
+  
+  @media all and (-ms-high-contrast:none) {
+    .grid-container {
+      display: -ms-grid;
+      -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+  
+  }  
+
+h1, h2, h3 {
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 0.125rem;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-top: calc((0.16cm + 1rem) * -1);
+    padding: 0 3px;
+    color: var(--title-color);
+    background: var(--main-bg-color);
+    position: absolute;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+p, ul, a {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.25rem;
+    margin-left: 3px;
+}
+
+.list-like, ul {
+    margin-left: 0;
+}
+
+.list-like:before {
+    content:"• ";
+}
+
+p:not(:last-child), a:not(:last-child) {
+     padding-bottom: 0.125rem; 
+}
+
+a, a:visited {
+    color: var(--title-color);
+    margin-left: 0px;
+}
+
+.block {
+    margin: 0.25cm;
+    padding: 0.125cm;
+    border: 2px solid var(--title-color);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 + * {
+    padding-top: 0.25rem;
+}
+
+#main-title {
+    grid-area: a;
+    /* background-color: var(--soft-highlight-color); */
+    /* align-items: center; */
+    justify-content: center;
+    color: var(--title-color)
+}
+
+#contact {
+    grid-area: b;
+}
+
+#main-title, #contact {
+    border: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.detail-pair {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 0.25cm;
+}
+
+#skills {
+    grid-area: d;
+}
+
+#personal-summary {
+    grid-area: c;
+}
+
+#personal-summary > p {
+    margin-left: 0;
+}
+
+#dev-experience {
+    grid-area: e;
+}
+
+#self-dev {
+    grid-area: f;
+}
+
+#giving-back {
+    grid-area: g;
+}
+
+#prior-pro {
+    grid-area: h;
+}
+
+#interests {
+    grid-area: i;
+}
+
+#education {
+    grid-area: j;
+}
