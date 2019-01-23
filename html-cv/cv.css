@@ -5,6 +5,8 @@
     --soft-highlight-color: rgba(207, 145, 207, 0.1);
     --title-color: rgb(50, 90, 200);
     font-size: 15px;
+    --softest-highlight-color: rgba(207, 145, 207, 0.05);
+    --softest-alt-highlight-color: rgb(50, 90, 200, 0.05);
 }
 
 * {
@@ -49,7 +51,7 @@ article div {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-
+    width: 100%;
 }
 
 h1+h2 {
@@ -59,7 +61,7 @@ h1+h2 {
 h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 3.8rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     color: var(--title-color);
 
 }
@@ -94,8 +96,8 @@ ul {
     text-align: center;
 }
 
-li {
-    line-height: 1.4rem;
+li:not(:last-child) {
+    padding-bottom: 5px;
 }
 
 p:not(:last-child) {
@@ -111,6 +113,8 @@ b,
 strong {
     font-weight: bold;
     background-color: var(--soft-highlight-color);
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 #contact {
@@ -119,30 +123,35 @@ strong {
     width: 100%;
 }
 
-#contact>div {
-    min-height: 60px;
+.contact-item {
+    min-height: 70px;
     min-width: 60px;
     background-color: var(--soft-highlight-color);
     flex: 1;
     margin: 5px;
+    justify-content: center;
 }
 
-#skills {
+.multi-column {
     flex-direction: row;
 }
 
-#skills>div {
+.multi-column>div {
     flex-direction: row;
     align-items: flex-start;
 }
 
-#skills div {
+.multi-column div {
     width: 100%;
     flex: 1;
 }
 
 div {
     padding: 5px;
+}
+
+.email {
+    /* flex: 1.5; */
 }
 
 footer {
@@ -156,15 +165,24 @@ footer>p {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.dev-ex {
+
+.exp {
     align-items: flex-start;
     width: 100%;
 }
 
-.dev-ex:not(:first-of-type) {
+.exp:not(:first-of-type) {
     margin-top: 10px;
 }
 
 p {
     margin-left: 3px;
 }
+
+/* li:nth-child(odd) {
+    background-color: var(--softest-highlight-color);
+}
+
+li:nth-child(even) {
+    background-color: var(--softest-alt-highlight-color);
+} */
